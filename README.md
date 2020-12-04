@@ -1,2 +1,5 @@
 # TCP-UDP-Network
-Chat TCP/UDP in development
+Chat TCP in development
+Created by Anton Biluta (antonbiluta)
+           Maksim Bobrovskii (Slimenion)
+           Gleb Bushelenkov
