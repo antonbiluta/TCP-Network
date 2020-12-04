@@ -17,7 +17,7 @@ TCP.
 
 - **Maksim Bobrovskii [(Slimenion)](https://github.com/Slimenion)**
 
-- **Gleb Bushelenkov**
+- **Gleb Bushelenkov [(Bigggggggg512)](https://github.com/Bigggggggg512)**
 ##### Таблица работы:
 |               |Обязанности        |Выполнено                         |
 |---------------|-------------------|-------------------|
