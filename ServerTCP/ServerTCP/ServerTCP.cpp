@@ -81,12 +81,7 @@ int main(int argc, char* argv[]) {
 		}
 		else {
 			std::cout << "Client connected\n";
-			std::string msg = "Hello.";
-			int msg_size = msg.size();
-			Packet msgtype = P_ChatMassage;
-			send(newConnection, (char*)&msgtype, sizeof(Packet), NULL);
-			send(newConnection, (char*)&msg_size, sizeof(int), NULL);
-			send(newConnection, msg.c_str(), msg_size, NULL);
+			
 
 			Connections[i] = newConnection;
 			Counter++;
