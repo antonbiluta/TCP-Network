@@ -19,7 +19,7 @@ C -- Ответ 2 --> A1
 C -- Ответ N --> A2
 ```
 
-
+```
 gantt 
 	dateFormat YYYY-MM-DD 
 	title Процесс разработки
@@ -29,7 +29,7 @@ gantt
 	Объединить 	:done, 	des3, 2020-09-16, 2d 
 	Сдать практику 	:done, 		des4, 2020-09-20, 1d
 	Сдать лектору 	:active, 	des5, after des4, 2020-12-01
-
+```
 
 ```mermaid
 journey 
