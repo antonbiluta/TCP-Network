@@ -23,7 +23,7 @@ bool ProcessPacket(Packet packettype) {
 		char* msg = new  char[msg_size + 1];
 		msg[msg_size] = '\0';
 		recv(Connection, msg, msg_size, NULL);
-		std::cout << msg << std::endl;
+		std::cout <<"Another user:"<< msg << std::endl;
 		delete[] msg;
 		break;
 	}
